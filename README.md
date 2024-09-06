@@ -21,6 +21,8 @@ Hier ist ein Beispiel, wie du den `ArgumentParser` verwenden kannst:
 import de.dion.argumentparser.*;
 
 public class Main {
+    //java -jar programm.jar -headless -lang en:ru
+    // -> args = []{"-headless", "-lang", "en:ru"} ...
     public static void main(String[] args) {
         // Erstellen einer neuen ArgumentParser-Instanz
         ArgumentParser ap = new ArgumentParser();
